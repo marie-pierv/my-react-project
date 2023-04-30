@@ -1,3 +1,5 @@
+import MySecondCompo from "./MySecondCompo";
+
 const MyFirstCompo = () => {
     return (
         <section>
