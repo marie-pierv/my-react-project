@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import MyFirstCompo from './MyCompo/MyFirstCompo'
 import MySecondCompo from './MyCompo/MySecondCompo'
+import test from './MyCompo/test'
 import './App.css'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <>
       <MyFirstCompo />
       <MySecondCompo />
+      <test />
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
